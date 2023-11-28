@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -18,59 +18,70 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | Results summary component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    Your Result 76 of 100 Great You scored higher than 65% of the people who
-    have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
-    / 100 Visual 72 / 100 Continue
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/l3miage-bouvier5">Monsieur Boubou</a>.
-    </div>
-
 
     <div class="container">
       <div class="card">
         <div class="result">
           <div class="your-result">Your result</div>
           <div class="score">
-            <h1>76</h1> <p>of 100</p>
+            <h1>76</h1>
+            <p>of 100</p>
           </div>
           <div class="description">
             <h1>Great</h1>
-            <p>You scored higher than 65% of the people who have taken these tests.</p>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
           </div>
         </div>
         <div class="summary">
           <h1>Summary</h1>
           <div class="category reaction">
-            <img src="./assets/images/icon-reaction.svg" alt="icone de reacion"> 
-            <b>Reaction</b>
-            <b>80</b> / 100
+            <div class="logo">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="icone de reacion"
+              />
+              Reaction
+            </div>
+            <div class="detail-score"><div class="score-alone">80</div> / 100</div>
           </div>
           <div class="category memory">
-            <img src="./assets/images/icon-memory.svg" alt="icone de memory">
-            <b>Memory</b>
-            <b>92</b> / 100
+            <div class="logo">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="icone de memory"
+              />
+              Memory
+            </div>
+            <div class="detail-score"><div class="score-alone">92</div> / 100</div>
           </div>
           <div class="category verbal">
-            <img src="./assets/images/icon-verbal.svg" alt="icone de verbal">
-            <b>Verbal</b>
-            <b>61</b> / 100
+            <div class="logo">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="icone de verbal"
+              />
+              Verbal
+            </div>
+            <div class="detail-score"><div class="score-alone">61</div> / 100</div>
           </div>
           <div class="category visual">
-            <img src="./assets/images/icon-visual.svg" alt="icone de visual">
-            <b>Visual</b>
-            <b>72</b> / 100
+            <div class="logo">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="icone de visual"
+              />
+              Visual
+            </div>
+            <div class="detail-score"><div class="score-alone">72</div> / 100</div>
           </div>
-          <button class="continue">
-            Continue
-          </button>
+          <button class="continue">Continue</button>
         </div>
       </div>
-    
+    </div>
+  </body>
+</html>
